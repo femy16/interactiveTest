@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+
+                <p>Question 1</p>
+                <p id="questions">Question:    Where would you find the Empire State building?</p>
+                <p>Instructions: Select your answer by clicking an option. Then click OK.</p>
+                <p>Options :</p>
+                <input type="radio" name="Q1" value="New York">New York<br>
+                <input type="radio" name="Q1" value="Los Angeles">Los Angeles<br>
+                <input type="radio" name="Q1" value="San Francisco">San Francisco<br>
+                <input type="radio" name="Q1" value="New Orleans">New Orleans<br>
+                <br>
+                <input type="button" value="OK" id="Q1submit"><br><br>
+                <p id="feedback1"></p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8">
+
+                <p>Question 2</p>
+                <p id="questions">Question:   Identify the components of a PC</p>
+                <p>Instructions: Select your answer by clicking three options. Then click OK.</p>
+                <p>Options :</p>
+                <input type="checkbox" name="Q2" value="Processor">Processor<br>
+                <input type="checkbox" name="Q2" value="Memory">Memory<br>
+                <input type="checkbox" name="Q2" value="Hard Disk">Hard Disk<br>
+                <input type="checkbox" name="Q2" value="CD-ROM Drive">CD-ROM Drive<br>
+                <input type="checkbox" name="Q2" value="Printer">Printer<br>
+                <br>
+                <input type="button" value="OK" id="Q2submit"><br><br>
+                <p id="feedback2"></p>
+
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-8">
+
+                <p>Question 3</p>
+                <p id="questions">Question:  <span  id="inner-dropzone">-----</span> is a character in the film “The Matrix”.</p>
+                <p>Instructions: Select your answer by dragging an option into position. Then click OK.</p>
+                <p>Options :</p>
+                
+                <!--<div id="yes-drop" class="drag-drop"> R2D2</div>-->
+                <!--<div id="yes-drop" class="drag-drop"> Neo</div>-->
+                <!--<div id="yes-drop" class="drag-drop"> Ripley</div>-->
+               
+                
+                <input type="radio" name="Q3" value="R2D2">R2D2<br>
+                <input type="radio" name="Q3" value="Neo">Neo<br>
+                <input type="radio" name="Q3" value="Ripley">Ripley<br>
+                
+                <br>
+                <input type="button" value="OK" id="Q3submit"><br><br>
+                <p id="feedback3"></p>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+       
+    </script>
+    <script src="test.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+
+</html>

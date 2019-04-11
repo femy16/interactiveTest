@@ -1,0 +1,14 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    padding: 50px;
+}
+#questions{
+    color: blue;
+    font-weight: bold;
+}
+#feedback2,#feedback1,#feedback3{
+    color: red;
+}
